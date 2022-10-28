@@ -6,7 +6,7 @@ def game():
     print("\nI have selected a number between 1 to 100...")
     print("You have 6 chances to guess that number...")
     i = 1
-    r = 1
+    r = 1 #r is assignmed with value 1
     while i<7:  
         user_number = int(input('Enter your number: ')) 
         if user_number < rand_number:
