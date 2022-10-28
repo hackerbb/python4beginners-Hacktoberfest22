@@ -5,7 +5,7 @@ def reverse(s):
 	return str
 
 s = "Geeksforgeeks"
-
+#here we print the original string
 print("The original string is : ", end="")
 print(s)
 
