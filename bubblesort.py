@@ -16,7 +16,7 @@ def bubbleSort(arr):
 			# Swap if the element found is greater
 			# than the next element
 			if arr[j] > arr[j + 1]:
-				swapped = True
+				swapped = True #swapped variable used to optmize the algorithm
 				arr[j], arr[j + 1] = arr[j + 1], arr[j]
 		
 		if not swapped:
